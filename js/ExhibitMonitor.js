@@ -268,6 +268,7 @@ ExhibitMonitor.prototype.displayClosestExhibit = function() {
     document.getElementById('exhibit-title').innerHTML = '';
     document.getElementById('exhibit-description').innerHTML = '';
     document.getElementById('exhibit-videos').innerHTML = '';
+     document.getElementById('exhibit-chat').innerHTML = this.closest.content.messenger;
 
     //!!! validate, then:
     //populate content
