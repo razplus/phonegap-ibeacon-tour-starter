@@ -1,7 +1,7 @@
-<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="cc.christopherstevens.ibeacontourstarter" version="1.0.0">
-  <name>iBeacon Tour Starter</name>
-  <description>iBeacon Tour Starter is a very basic iBeacon tour starter. ;)</description>
-  <author href="http://www.christopherstevens.cc" email="chris@christopherstevens.cc">Christopher Stevens</author>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.whisperks.app" version="1.0.0">
+  <name>Whisperks</name>
+  <description>Contextual information for venues.</description>
+  <author href="https://razplus.com" email="raz@wooia.net">Razvan Patrascioiu</author>
   <content src="index.html"/>
   <preference name="permissions" value="none"/>
   <preference name="orientation" value="default"/>
