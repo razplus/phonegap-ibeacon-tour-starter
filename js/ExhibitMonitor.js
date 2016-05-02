@@ -189,6 +189,7 @@ ExhibitMonitor.prototype.getData = function() {
                     featureImg: '',
                     thumbImg: '',
                     description: '',
+                    messenger:'',
                     youTubeIDs: []
                 }
             };
