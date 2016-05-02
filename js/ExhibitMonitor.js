@@ -224,6 +224,10 @@ ExhibitMonitor.prototype.getData = function() {
             if(this.data[i].hasOwnProperty('body')) {
                 ib.content.description = this.data[i].body;
             }
+            
+            if(this.data[i].hasOwnProperty('field_messenger')) {
+                ib.content.messenger = this.data[i].field_messenger;
+            }
 
             if(this.data[i].hasOwnProperty('field_youtube_video_ids')) {
                 ib.content.youTubeIDs = this.data[i].field_youtube_video_ids.split(',');
