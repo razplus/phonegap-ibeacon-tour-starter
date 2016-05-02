@@ -18,7 +18,7 @@
  */
 function ExhibitMonitor() {
     //where the data comes from
-    this.dataURL = 'http://razplus.com/app/api/v1/poi/all';
+    this.dataURL = 'https://whisperks.com/app/api/v1/micro';
     
     //data pulled from the website, stored in an array for now
     //!!! move this to a data class and store data locally for offline use!
